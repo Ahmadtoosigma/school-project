@@ -1,0 +1,38 @@
+h1{
+    color:red
+}
+/**{
+    border:solid
+}*/
+.header{
+    background-color:red;
+display:flex;
+justify-content: space-evenly;
+}
+.grid{
+    display:flex;
+    background-color: white;
+    flex-wrap:wrap;
+    justify-content:space-evenly
+}
+.footer{
+    display:flex;
+    justify-content: flex-start;
+    
+}
+.item{
+    position:relative
+}
+.item p{
+    position:absolute;
+    top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity:1
+}
+.item:hover p{
+    opacity:1
+}
+.item:hover img{
+opacity:0.33
+}
